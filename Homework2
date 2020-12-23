@@ -1,0 +1,11 @@
+mylist = []
+for i in range(1,10,1):
+    user = mylist.append(input("First Name : "))
+    lastname = input("Last NAme : ")
+    age = int(input("Age : "))
+    dateOfBirth = int(input("Date Of Bİrth (just year) : "))
+    if age < 18:
+        print("you cant go out because its too dangerous")
+    else:
+        print("You can go out the street")
+print(mylist)
