@@ -1,0 +1,8 @@
+num1 = input("Please enter a number: ")
+num2 = input("Please enter a number: ")
+num3 = input("Please enter a number: ")
+num4 = input("Please enter a number: ")
+num5 = input("Please enter a number: ")
+print(f"\nnum1Type: {type(num1)}\nnumrType: {type(num2)}\nnum3Type: {type(num3)}\num4Type: {type(num4)}\nnum5Type: "
+      f"{type(num5)}")
+      
